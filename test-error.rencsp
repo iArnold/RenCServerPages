@@ -1,0 +1,13 @@
+<% random/seed now 
+colors: random [darkmagenta maroon navy steelblue tomato blue forestgreen chocolat silver sienna] 
+%>
+<h1><font color = <%=colors/(1) %>>R</font><font color = <%=colors/(2) %>>E</font><font color = <%=colors/(3) %>>N</font><font color = <%=colors/(4) %>>-</font><font color = <%=colors/(5) %>>C</font><font color = <%=colors/(6) %>>!</font></h1>
+<p style="color : <%=colors/(7) %>;">
+
+Test page test.rencsp file </p>
+<br />
+An error in the following code prevents more output to be presented
+<br />
+<% what-is: 1 / 0 %>
+
+What if you could divide by zero?
