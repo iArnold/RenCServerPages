@@ -1,0 +1,7 @@
+Options +ExecCGI
+AddHandler cgi-script .cgi .reb .renc .r
+AddHandler rencsp-page .rencsp
+AddHandler rsp-page .rsp
+Action rencsp-page /cgi/rencsp.cgi
+Action rsp-page /cgi/rsp.cgi
+DirectoryIndex index.rsp index.php index.cgi index.r index.html index.htm index.red
